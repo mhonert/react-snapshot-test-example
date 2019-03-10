@@ -1,0 +1,9 @@
+.UserDataForm > label {
+    display: block;
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+
+.UserDataForm > label > input {
+    width: 20rem;
+}

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render UserDataForm in editable mode 1`] = `
+<form
+  className="UserDataForm"
+>
+  <h2>
+    Editable form
+  </h2>
+  <label>
+    Name
+    <input
+      onChange={[Function]}
+      readOnly={false}
+      type="text"
+      value="Test name"
+    />
+  </label>
+  <label>
+    E-Mail
+    <input
+      onChange={[Function]}
+      readOnly={false}
+      type="text"
+      value="test@localhost"
+    />
+  </label>
+  <button
+    onClick={[Function]}
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
+
+exports[`Render UserDataForm in read-only mode 1`] = `
+<form
+  className="UserDataForm"
+>
+  <h2>
+    Read-only form
+  </h2>
+  <label>
+    Name
+    <input
+      onChange={[Function]}
+      readOnly={true}
+      type="text"
+      value="Test name"
+    />
+  </label>
+  <label>
+    E-Mail
+    <input
+      onChange={[Function]}
+      readOnly={true}
+      type="text"
+      value="test@localhost"
+    />
+  </label>
+</form>
+`;
