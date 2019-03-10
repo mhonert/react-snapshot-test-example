@@ -20,8 +20,8 @@ have been introduced by some code changes (e.g. after a refactoring).
 
 ## Setup
 
-The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-and additionally the following devDependencies were added:
+The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+and the following additional devDependencies were added:
 * [enzyme](https://www.npmjs.com/package/enzyme)
 * [enzyme-adapter-react-16](https://www.npmjs.com/package/enzyme-adapter-react-16)
 * [enzyme-to-json](https://www.npmjs.com/package/enzyme-to-json)
@@ -72,5 +72,6 @@ a component changes over time.
 For some components the snapshot tests might already be all you need.
 However depending upon your quality requirements and the complexity of your application,
 you usually would want to combine them with other unit tests (e.g. for your reducers if you are working with a Redux-based application architecture).
+
 In this combination they can provide a solid foundation for the [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 and reduce the need for a high amount of brittle UI-driven end-to-end tests (e.g. using Selenium).
